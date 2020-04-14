@@ -4,7 +4,6 @@ require_once "config/config.php";
 
 ?>
 
-<!-- <?php print_r($val->arrayComentarios); ?> -->
 <div class="col-lg-4 col-sm col-md-6">
   <div class="card" style="width: 18rem;">
     <?php if (isset($_SESSION["userData"])) :

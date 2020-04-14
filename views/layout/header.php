@@ -38,15 +38,8 @@ ob_start();
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo URL_BASE . "noticia/getAllNoticias" ?>">Noticias</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Categorías
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Mostrar todas las noticas</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo URL_BASE . "categorias/categorias" ?>">Categorías</a>
                     </li>
                     <li class="nav-item end-menu btn-group dropdown">
                         <?php if (!isset($_SESSION["userData"])) : ?>

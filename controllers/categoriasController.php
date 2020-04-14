@@ -11,8 +11,7 @@ class categoriasController extends baseController{
         $getCategorias = new categoriasData();
         $getData_cat = $getCategorias->getCategorias();
 
-        require_once "views/layout/header.php";
-        print_r($getData_cat);
+        require_once "views/categorias/categorias.php";
     }
     #endregion
 

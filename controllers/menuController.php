@@ -1,6 +1,8 @@
 <?php
 
-require_once "baseController.php";
+require_once "controllers/baseController.php";
+require_once "controllers/categoriasController.php";
+require_once "data/datos/datos.php";
 
 class menuController extends baseController{
 
